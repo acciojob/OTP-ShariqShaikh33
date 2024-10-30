@@ -1,1 +1,42 @@
 /*  your css code here. If applicable */
+.main-container{
+	border: 1px solid black;
+	border-radius: 5px;
+	text-align: center;
+	font-family: sans-serif;
+	width: 100%;
+	height: 400px;
+}
+#verification_heading{
+	font-size: 25px;
+	padding-top: 10px;
+}
+#verification_subtext{
+	padding: 10px;
+	font-size: 14px;
+	color: gray;
+}
+
+#code-container{
+	width: 100%;
+	height: 150px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+	
+}
+.code{
+	width: 10%;
+	height: 80px;
+	
+	margin: 5px;
+	margin-bottom: 20px;
+	border: 1px solid lightgray;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 50px;
+}
+
+
